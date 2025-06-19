@@ -1,0 +1,255 @@
+Error Analysis Report for Experiment A
+========================================
+
+--- Examples of False Positives (Predicted Positive, Was Negative) ---
+
+--- False Positive Example #1 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+First off let me say, If you haven't enjoyed a Van Damme movie since bloodsport,
+you probably will not like this movie. Most of these movies may not have the
+best plots or best actors but I enjoy these kinds of movies for what they are.
+This movie is much better than any of the movies the other action guys (Segal
+and Dolph) have thought about putting out the past few years. Van Damme is good
+in the movie, the movie is only worth watching to Van Damme fans. It is not as
+good as Wake of Death (which i highly recommend to anyone of likes Van Damme) or
+In hell but, in my opinion it's worth watching. It has the same type of feel to
+it as Nowhere to Run. Good fun stuff!
+
+========================================
+
+--- False Positive Example #2 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Isaac Florentine has made some of the best western Martial Arts action movies
+ever produced. In particular US Seals 2, Cold Harvest, Special Forces and
+Undisputed 2 are all action classics. You can tell Isaac has a real passion for
+the genre and his films are always eventful, creative and sharp affairs, with
+some of the best fight sequences an action fan could hope for. In particular he
+has found a muse with Scott Adkins, as talented an actor and action performer as
+you could hope for. This is borne out with Special Forces and Undisputed 2, but
+unfortunately The Shepherd just doesn't live up to their abilities.<br /><br
+/>There is no doubt that JCVD looks better here fight-wise than he has done in
+years, especially in the fight he has (for pretty much no reason) in a prison
+cell, and in the final showdown with Scott, but look in his eyes. JCVD seems to
+be dead inside. There's nothing in his eyes at all. It's like he just doesn't
+care about anything throughout the whole film. And this is the leading man.<br
+/><br />There are other dodgy aspects to the film, script-wise and visually, but
+the main problem is that you are utterly unable to empathise with the hero of
+the film. A genuine shame as I know we all wanted this film to be as special as
+it genuinely could have been. There are some good bits, mostly the action scenes
+themselves. This film had a terrific director and action choreographer, and an
+awesome opponent for JCVD to face down. This could have been the one to bring
+the veteran action star back up to scratch in the balls-out action movie
+stakes.<br /><br />Sincerely a shame that this didn't happen.
+
+========================================
+
+--- False Positive Example #3 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues
+with this film. First of all, I don't fault the actors in this film at all, but
+more or less, I have a problem with the script. Also, I understand that this
+film was made in the 1930's and people were looking to escape reality, but the
+script made Ann Sothern's character look weak. She kept going back and forth
+between suitors and I felt as though she should have stayed with Paul Kelly's
+character in the end. He truly did care about her and her family and would have
+done anything for her and he did by giving her up in the end to fickle Neil
+Hamilton who in my opinion was only out for a good time. Paul Kelly's character,
+although a workaholic was a man of integrity and truly loved Kitty (Ann Sothern)
+as opposed to Neil Hamilton, while he did like her a lot, I didn't see the depth
+of love that he had for her character. The production values were great, but the
+script could have used a little work.
+
+========================================
+
+--- False Positive Example #4 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Ben, (Rupert Grint), is a deeply unhappy adolescent, the son of his unhappily
+married parents. His father, (Nicholas Farrell), is a vicar and his mother,
+(Laura Linney), is ... well, let's just say she's a somewhat hypocritical
+soldier in Jesus' army. It's only when he takes a summer job as an assistant to
+a foul-mouthed, eccentric, once-famous and now-forgotten actress Evie Walton,
+(Julie Walters), that he finally finds himself in true 'Harold and Maude'
+fashion. Of course, Evie is deeply unhappy herself and it's only when these two
+sad sacks find each other that they can put their mutual misery aside and hit
+the road to happiness.<br /><br />Of course it's corny and sentimental and very
+predictable but it has a hard side to it, too and Walters, who could sleep-walk
+her way through this sort of thing if she wanted, is excellent. It's when she
+puts the craziness to one side and finds the pathos in the character, (like
+hitting the bottle and throwing up in the sink), that she's at her best. The
+problem is she's the only interesting character in the film (and it's not
+because of the script which doesn't do anybody any favours). Grint, on the other
+hand, isn't just unhappy; he's a bit of a bore as well while Linney's starched
+bitch is completely one-dimensional. (Still, she's got the English accent off
+pat). The best that can be said for it is that it's mildly enjoyable - with the
+emphasis on the mildly.
+
+========================================
+
+--- False Positive Example #5 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Dr Stephens (Micheal Harvey) runs a mental asylum. He has a different approach
+to the insane. He conducts unorthodox methods of treatment. He treats everyone
+like family, there are no locks on the patients doors and he lets some of the
+inmates act out their twisted fantasies. He lets Sergeant Jaffee (Hugh Feagin)
+dress and act as a soldier and Harriet (Camilla Carr) be a mother to a doll,
+including letting her put it to bed in a cot. Dr. Stevens is outside letting
+Judge Oliver W. Cameron (Gene Ross) chop a log up with an axe, it turns out to
+be a bad move as once Dr. Stevens back is turned the Judge plants the axe in his
+shoulder. Soon after Nurse Charlotte Beale (Rosie Holotik) arrives at the
+Sanitarium having arranged an interview with Dr. Stevens about a possible job.
+She is met by the head Nurse, Geraldine Masters (Annabelle Weenick as Anne
+McAdams) and is offered a trail position. She gets to know and becomes well
+liked among the patients. However things eventually start to turn sour, the
+phone lines are cut, an old lady named Mrs. Callingham (Rhea MacAdams) has her
+tongue cut out and she starts to get a strange feeling that things just aren't
+right somehow. Then, one night all the Sanitariums dark secrets are violently
+revealed. Produced and directed by S.f. Brownrigg this film has a great central
+idea which builds into a cool twist ending, but ultimately is a bit of a chore
+to sit through because of it's low budget restrictions and a rather slow script
+by Tim Pope. There are just too many long boring stretches of dialogue by the
+inmates, not a lot really happens until the final twenty odd minutes. The film
+has no real visual quality as it's set entirely in the Sanitarium and it's
+grounds which is basically just a big bland house in the middle of nowhere.
+There's no graphic gore in it, a few splashes of blood here and there and thats
+yer lot. There's a bit of nudity, but like the gore not much. The acting is
+pretty strong, especially Holotik and Weenick. The photography is flat and
+unexciting and I can't even remember what the music was like. The twist ending
+is great, but it just takes far too long to get to it. A film that had a lot of
+potential that was probably held back by it's budget. OK I guess, but I think it
+would have worked a lot better if the story had been turned into a half an hour
+'Tales form the Crypt' episode.
+
+========================================
+
+--- Examples of False Negatives (Predicted Negative, Was Positive) ---
+
+--- False Negative Example #1 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+Overall, a well done movie. There were the parts that made me wince, and there
+were the parts that I threw my hands up at, but I came away with something more
+than I gone in with.<br /><br />I think the movie suffers from some serious
+excess ambition. Without spoiling it, let me say that the obvious references to
+the trial by fire in Ramayana, is way beyond what this movie stands for. The
+Ramayana is an epic. Not a 200 page book that puts down women in India. The
+movie is about two girls married into a very distinctive Indian family. While
+the basic tenets of the "unwritten laws of the family tradition" seem to be that
+of conservative India, let me assure my reader that I (having lived in Delhi for
+12 years) found entire parts that just did not ring those bells. I mean some
+things and some actions are very true, but some other stuff is just way off the
+mark. Especially today.<br /><br />Delhi is complicated. India is complicated.
+The director tries to simplify both. And fails pretty miserably at that.<br
+/><br />Why in English? Can you imagine a movie about American Indians in
+English. Or the French speaking in English. Seriously jarring. Even the servant
+spoke in fluent accented English (albeit with a hint of colloquialisms in the
+language for "believability").<br /><br />But the chemistry between the leads is
+palpable. If you like it hot, this is a movie for you. I think that is the
+biggest saving grace - the development of a true real life love story.<br /><br
+/>If this film was about Radha and Sita, then it would have got full marks from
+me. And in being about them, it could have made a subtle statement. But this
+movie goes out there to say this is what India is, and this is what Indian
+society is like. And in that respect it succeeds as much as it fails. Just take
+everything you see with a pinch of salt. The dark secrets of India are not being
+revealed. Just two girls are falling in love. Just like it happens everywhere
+else.
+
+========================================
+
+--- False Negative Example #2 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+The theme is controversial and the depiction of the hypocritical and sexually
+starved india is excellent.Nothing more to this film.There is a lack of good
+dialogues(why was the movie in english??). There was lack of continuity and lack
+of passion/emotion in the acting.
+
+========================================
+
+--- False Negative Example #3 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+The movie is really about choices. In the oppressed state of affairs as seen in
+Fire, where good women had to be obedient and do what was correct in the eyes of
+tradition, there seemed few options for Radha and Sita. However, granted that it
+was not their only option. What is life without desire, Radha questions Ashok.
+Yes, it's true that life provides us with a number of options but how many we
+can take depends on a number of external factors. When your world is confined to
+a small Indian household, being a dutiful daughter-in-law to a silent but
+observant still powerful matriarch, a dutiful wife of 13 years to a man who has
+taken a vow of celibacy due to your not being able to have a child, a man who
+only wants you lying next to him to prove his strength in eliminating his
+desires. I felt the ladies had little choice but to find solace in each other's
+company. I guess the fact that so many women applauded Ms Mehta's work, was
+because it provided them with an option to think for themselves. An option to do
+what was perhaps unacceptable. The lesbian scenes I felt was merely to put that
+point across. Every scene in the movie from the first at the Taj Mahal to the
+last at the Mosque, is etched in my mind. How frustrating to be a prisoner of
+your feelings and desires. To feel that you had to forgo the human touch to be a
+dutiful wife just because it is expected of you. To have to suppress any desire
+you might have and to crave for the human touch. What then is the meaning of our
+existence one wonders. In the scene where Sita is crying alone in the room and
+Radha comes in to comfort her, their lips accidentally brush against each others
+and it awakens a feeling in them. Something they have both been deprived of.<br
+/><br />Bravo to Ms Mehta in translating her vision so clearly. I especially
+like the flashbacks to the young Radha trying to 'see' for the ocean. It is a
+metaphor for freedom. Freedom to choose, freedom to transport ourselves to
+places we would normally be unable to reach. In those scenes, it is gently told
+to us that her sense of duty has also been passed down from her mother who I
+assume lives within the rich Indian traditions of duty in marriage. The movie is
+beautifully filmed and enhanced by the musical score by A.R. Rahman. Since the
+film, I have become ardent fans of the two lead actresses and the director. I
+look forward to more of Ms Deepa's future productions.
+
+========================================
+
+--- False Negative Example #4 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+Although Bullet In The Brain is, without question, superior amongst short films,
+it largely seems more like a short piece of writing than a film. And it is a
+little hard to feel too sorry for the teacher when his smart ass remarks get him
+shot. But after the bullet enters his brain we begin to understand a little bit
+about why he became so jaded with life in the first place. There is an awful
+amount of detail packed into this reasonably short film and this is what makes
+me feel that it should have been extended a little bit - it seems like there's
+almost too much to take in at once as the details come flying at you so fast. A
+slightly more relaxed pace and a less po-faced narrator in the final section
+would have benefitted this film a little bit. Despite these complaints, there is
+no denying that Bullet In The Brain is a quite stupendous work compared to many
+short, and even full length films. The makers should be applauded for trying to
+make such a basically emotional and literate film in the current climate of
+quick jokes and Hollywood action.
+
+========================================
+
+--- False Negative Example #5 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+This movie was everything but boring. It deals with reality. To the people who
+think this movie was boring, open your eyes to the real problems in our society.
+Our children are dying. The consequences of alcohol and drug abuse are not to be
+ignored. I work in a correctional facility as a chemical dependency
+counselor,and i deal with these problems every day. People of all ages and all
+walks of life are effected by the consequences of their alcohol and drug abuse.
+It destroys families, hurts people and leads to serious brain damage,all kinds
+of health problems, and death. It is all preventable. This movie should be shown
+in every high-school in the world. If anyone owns this movie and wants to sell
+it, or sell me a copy, please e-mail me at: Ottenbreit2@netzero.net thank you
+
+========================================
+

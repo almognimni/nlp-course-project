@@ -1,0 +1,304 @@
+Error Analysis Report for Experiment A
+========================================
+
+--- Examples of False Positives (Predicted Positive, Was Negative) ---
+
+--- False Positive Example #1 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+its a totally average film with a few semi-alright action sequences that make
+the plot seem a little better and remind the viewer of the classic van dam
+films. parts of the plot don't make sense and seem to be added in to use up
+time. the end plot is that of a very basic type that doesn't leave the viewer
+guessing and any twists are obvious from the beginning. the end scene with the
+flask backs don't make sense as they are added in and seem to have little
+relevance to the history of van dam's character. not really worth watching
+again, bit disappointed in the end production, even though it is apparent it was
+shot on a low budget certain shots and sections in the film are of poor directed
+quality
+
+========================================
+
+--- False Positive Example #2 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+STAR RATING: ***** Saturday Night **** Friday Night *** Friday Morning ** Sunday
+Night * Monday Morning <br /><br />Former New Orleans homicide cop Jack
+Robideaux (Jean Claude Van Damme) is re-assigned to Columbus, a small but
+violent town in Mexico to help the police there with their efforts to stop a
+major heroin smuggling operation into their town. The culprits turn out to be
+ex-military, lead by former commander Benjamin Meyers (Stephen Lord, otherwise
+known as Jase from East Enders) who is using a special method he learned in
+Afghanistan to fight off his opponents. But Jack has a more personal reason for
+taking him down, that draws the two men into an explosive final showdown where
+only one will walk away alive.<br /><br />After Until Death, Van Damme appeared
+to be on a high, showing he could make the best straight to video films in the
+action market. While that was a far more drama oriented film, with The Shepherd
+he has returned to the high-kicking, no brainer action that first made him
+famous and has sadly produced his worst film since Derailed. It's nowhere near
+as bad as that film, but what I said still stands.<br /><br />A dull,
+predictable film, with very little in the way of any exciting action. What
+little there is mainly consists of some limp fight scenes, trying to look cool
+and trendy with some cheap slo-mo/sped up effects added to them that sadly
+instead make them look more desperate. Being a Mexican set film, director Isaac
+Florentine has tried to give the film a Robert Rodriguez/Desperado sort of feel,
+but this only adds to the desperation.<br /><br />VD gives a particularly
+uninspired performance and given he's never been a Robert De Niro sort of actor,
+that can't be good. As the villain, Lord shouldn't expect to leave the beeb
+anytime soon. He gets little dialogue at the beginning as he struggles to muster
+an American accent but gets mysteriously better towards the end. All the
+supporting cast are equally bland, and do nothing to raise the films spirits at
+all.<br /><br />This is one shepherd that's strayed right from the flock. *
+
+========================================
+
+--- False Positive Example #3 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Isaac Florentine has made some of the best western Martial Arts action movies
+ever produced. In particular US Seals 2, Cold Harvest, Special Forces and
+Undisputed 2 are all action classics. You can tell Isaac has a real passion for
+the genre and his films are always eventful, creative and sharp affairs, with
+some of the best fight sequences an action fan could hope for. In particular he
+has found a muse with Scott Adkins, as talented an actor and action performer as
+you could hope for. This is borne out with Special Forces and Undisputed 2, but
+unfortunately The Shepherd just doesn't live up to their abilities.<br /><br
+/>There is no doubt that JCVD looks better here fight-wise than he has done in
+years, especially in the fight he has (for pretty much no reason) in a prison
+cell, and in the final showdown with Scott, but look in his eyes. JCVD seems to
+be dead inside. There's nothing in his eyes at all. It's like he just doesn't
+care about anything throughout the whole film. And this is the leading man.<br
+/><br />There are other dodgy aspects to the film, script-wise and visually, but
+the main problem is that you are utterly unable to empathise with the hero of
+the film. A genuine shame as I know we all wanted this film to be as special as
+it genuinely could have been. There are some good bits, mostly the action scenes
+themselves. This film had a terrific director and action choreographer, and an
+awesome opponent for JCVD to face down. This could have been the one to bring
+the veteran action star back up to scratch in the balls-out action movie
+stakes.<br /><br />Sincerely a shame that this didn't happen.
+
+========================================
+
+--- False Positive Example #4 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+Blind Date (Columbia Pictures, 1934), was a decent film, but I have a few issues
+with this film. First of all, I don't fault the actors in this film at all, but
+more or less, I have a problem with the script. Also, I understand that this
+film was made in the 1930's and people were looking to escape reality, but the
+script made Ann Sothern's character look weak. She kept going back and forth
+between suitors and I felt as though she should have stayed with Paul Kelly's
+character in the end. He truly did care about her and her family and would have
+done anything for her and he did by giving her up in the end to fickle Neil
+Hamilton who in my opinion was only out for a good time. Paul Kelly's character,
+although a workaholic was a man of integrity and truly loved Kitty (Ann Sothern)
+as opposed to Neil Hamilton, while he did like her a lot, I didn't see the depth
+of love that he had for her character. The production values were great, but the
+script could have used a little work.
+
+========================================
+
+--- False Positive Example #5 ---
+True Label: 0
+Predicted Label: 1
+Full Text:
+A group of heirs to a mysterious old mansion find out that they have to live in
+it as part of a clause in the will or be disinherited, but they soon find out of
+its history of everybody whom had lived there before them having either died in
+weird accidents or having had killed each other.<br /><br />You've seen it all
+before, and this one is too low-budget and slow paced to be scary, and doesn't
+have any real surprises in the climax. No special effects or gore to speak of,
+in fact the only really amusing thing about the whole film is the quality of the
+English dubbing, which at times is as bad as a cheap martial arts movie.<br
+/><br />3 out of 10, pretty low in the pecking order of 80's haunted house
+movies.
+
+========================================
+
+--- Examples of False Negatives (Predicted Negative, Was Positive) ---
+
+--- False Negative Example #1 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+Previous reviewer Claudio Carvalho gave a much better recap of the film's plot
+details than I could. What I recall mostly is that it was just so beautiful, in
+every sense - emotionally, visually, editorially - just gorgeous.<br /><br />If
+you like movies that are wonderful to look at, and also have emotional content
+to which that beauty is relevant, I think you will be glad to have seen this
+extraordinary and unusual work of art.<br /><br />On a scale of 1 to 10, I'd
+give it about an 8.75. The only reason I shy away from 9 is that it is a mood
+piece. If you are in the mood for a really artistic, very romantic film, then
+it's a 10. I definitely think it's a must-see, but none of us can be in that
+mood all the time, so, overall, 8.75.
+
+========================================
+
+--- False Negative Example #2 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+Overall, a well done movie. There were the parts that made me wince, and there
+were the parts that I threw my hands up at, but I came away with something more
+than I gone in with.<br /><br />I think the movie suffers from some serious
+excess ambition. Without spoiling it, let me say that the obvious references to
+the trial by fire in Ramayana, is way beyond what this movie stands for. The
+Ramayana is an epic. Not a 200 page book that puts down women in India. The
+movie is about two girls married into a very distinctive Indian family. While
+the basic tenets of the "unwritten laws of the family tradition" seem to be that
+of conservative India, let me assure my reader that I (having lived in Delhi for
+12 years) found entire parts that just did not ring those bells. I mean some
+things and some actions are very true, but some other stuff is just way off the
+mark. Especially today.<br /><br />Delhi is complicated. India is complicated.
+The director tries to simplify both. And fails pretty miserably at that.<br
+/><br />Why in English? Can you imagine a movie about American Indians in
+English. Or the French speaking in English. Seriously jarring. Even the servant
+spoke in fluent accented English (albeit with a hint of colloquialisms in the
+language for "believability").<br /><br />But the chemistry between the leads is
+palpable. If you like it hot, this is a movie for you. I think that is the
+biggest saving grace - the development of a true real life love story.<br /><br
+/>If this film was about Radha and Sita, then it would have got full marks from
+me. And in being about them, it could have made a subtle statement. But this
+movie goes out there to say this is what India is, and this is what Indian
+society is like. And in that respect it succeeds as much as it fails. Just take
+everything you see with a pinch of salt. The dark secrets of India are not being
+revealed. Just two girls are falling in love. Just like it happens everywhere
+else.
+
+========================================
+
+--- False Negative Example #3 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+Now I do understand that this film was not meant as an indictment against all
+Indians but it is an amazing film because it dares to investigate the hypocrisy
+that some Indians have concerning their women and sexuality. I have known for
+some time that sexism is very common in this society (with women being murdered
+because the husband's family doesn't want them any more after his death or
+because she had a small dowry as well as the frequent killing of female fetuses
+because they are seen as a curse instead of a blessing). I also realize that
+some from this culture will be greatly offended by the film, but the bottom line
+is that there is some truth to the subject matter--even if the film was so
+strongly attacked when it debuted in India a decade ago. As a result of the
+extreme misogyny in the movie, most Western audience members will be shocked or
+at least be emotionally pulled into the plight of the ladies in this film.<br
+/><br />Although I am a male, am not rabidly feminist and I am straight, the
+film had a strong positive impact on me and it is NOT an agenda film that can
+only be enjoyed by Lesbians and "man haters". In fact, I don't think the film is
+promoting hatred of men or homosexuality but instead gives a credibly argument
+how in the case of these two ladies it was the only reasonable alternative due
+to their wicked husbands. Yes, I use the word "wicked" and mean it, as both
+husbands living in this large household are intensely selfish and have no regard
+for their spouses' sexuality. In many traditional societies this is indeed the
+case and women are doomed to an empty emotional existence.<br /><br />One
+husband married a vivacious young woman, Sita, out of family obligation. This
+arranged marriage is uncomfortable for them both but in the beginning Sita makes
+an attempt to connect with her sullen husband. However, he sees himself as a
+victim and could have cared less about Sita--and he continues to have an affair
+with a liberal-minded Chinese lady. To make matters worse, he did nothing to
+hide the affair and made no apologies. In their dead marriage, sex was purely
+meant to produce children and there was no way Sita could have any of her sexual
+or emotional needs met. And unfortunately, he could have cared less.<br /><br
+/>Another husband was married to a lady who was infertile (Radha). Oddly, after
+initially trying to have children, they have gone the next 13 years without any
+sexual contact whatsoever! It's because this man has decided to become an
+ascetic (i.e., in Hinduism, a person who gives up the pleasures of the world to
+gain inner enlightenment). Now his wanting to do this was all well and good IF
+he was not already married and had obligations for his wife. However, being
+married, this was an incredibly selfish act and like his brother, he assumed his
+wife had no sexual feelings nor did he seem to care. The closest he would allow
+her to him sexually was to sleep next to him--as having her next to him helped
+teach himself to "overcome the desires of the flesh". This must have brought
+nothing but frustration to her.<br /><br />So, you've got two neglected and
+normal women living in the same household who long for emotional connection as
+well as an outlet for their sexual needs. Eventually, these needs bring these
+sister-in-laws together--at first, just emotionally but later sexually as well.
+The movie was brilliant how it got me to look at and understand how in some
+cases homosexuality is inevitable and even healthy compared to a life of
+emotional desolation.<br /><br />Late in the film, when the intensity of their
+sexual relationship is discovered, it leads to a not totally unexpected reaction
+from Radha's "enlightened" husband--a man who seeks religious insight and peace
+yet is so wrapped up in himself that true insight and growth is impossible.<br
+/><br />This is a very challenging and adult film. While there is very little
+nudity, the subject matter is very adult and this is not a film to show your
+kids. Very disturbing indeed is one minor character who masturbates in front of
+an old paralyzed lady--as I said, this is NOT a film to let your kids watch.
+However, for a mature audience, this is an excellent and highly erotic film that
+will get you to think.<br /><br />The film features good acting, complex
+characters, excellent writing, lovely mood music and a slow pace that might
+annoy some, but which I found rewarding. The only serious negative I cannot
+blame on the movie itself but on the idiots who released this on videotape. This
+is because although the movie is in English, the accents are quite strong at
+times and it's not always easy to understand what's being said. BUT, and this is
+the worst part, there are no closed or open captions--including them is a must
+for Western audiences. If you do watch this film, see if you can find it on DVD
+or hopefully a newer release on video will have captioning--mine sure didn't.<br
+/><br />By the way, director Deepa Mehta (a popular female director) has made
+several other wonderful films such as EARTH and BOLLYWOOD/Hollywood. A
+consistent theme in her films is the conflict between traditional Indian culture
+and expectations and Westernism--with a strong emphasis on female characters.
+Not surprisingly, this West-thinking lady makes her home in Canada and is
+divorced--a truly unusual woman to say the least. For a similar film that
+explores traditional culture meets Western culture, try another Canadian gem,
+EAT DRINK MAN WOMAN.
+
+========================================
+
+--- False Negative Example #4 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+I admire Deepa Mehta and this movie is a masterpiece. I'd recommend to buy this
+movie on DVD because it's a movie you might want to watch more often than just
+once. And trust me, you'd still find little meaningful details after watching it
+several times.<br /><br />The characters - except for the grandmother perhaps -
+are all very balanced, no black and white. Even though you follow the story from
+the perspective of the two protagonists, there is also empathy for the other
+characters.<br /><br />I think the IMDb rating for the movie is far too low -
+probably due to its politically controversial content.
+
+========================================
+
+--- False Negative Example #5 ---
+True Label: 1
+Predicted Label: 0
+Full Text:
+The movie is really about choices. In the oppressed state of affairs as seen in
+Fire, where good women had to be obedient and do what was correct in the eyes of
+tradition, there seemed few options for Radha and Sita. However, granted that it
+was not their only option. What is life without desire, Radha questions Ashok.
+Yes, it's true that life provides us with a number of options but how many we
+can take depends on a number of external factors. When your world is confined to
+a small Indian household, being a dutiful daughter-in-law to a silent but
+observant still powerful matriarch, a dutiful wife of 13 years to a man who has
+taken a vow of celibacy due to your not being able to have a child, a man who
+only wants you lying next to him to prove his strength in eliminating his
+desires. I felt the ladies had little choice but to find solace in each other's
+company. I guess the fact that so many women applauded Ms Mehta's work, was
+because it provided them with an option to think for themselves. An option to do
+what was perhaps unacceptable. The lesbian scenes I felt was merely to put that
+point across. Every scene in the movie from the first at the Taj Mahal to the
+last at the Mosque, is etched in my mind. How frustrating to be a prisoner of
+your feelings and desires. To feel that you had to forgo the human touch to be a
+dutiful wife just because it is expected of you. To have to suppress any desire
+you might have and to crave for the human touch. What then is the meaning of our
+existence one wonders. In the scene where Sita is crying alone in the room and
+Radha comes in to comfort her, their lips accidentally brush against each others
+and it awakens a feeling in them. Something they have both been deprived of.<br
+/><br />Bravo to Ms Mehta in translating her vision so clearly. I especially
+like the flashbacks to the young Radha trying to 'see' for the ocean. It is a
+metaphor for freedom. Freedom to choose, freedom to transport ourselves to
+places we would normally be unable to reach. In those scenes, it is gently told
+to us that her sense of duty has also been passed down from her mother who I
+assume lives within the rich Indian traditions of duty in marriage. The movie is
+beautifully filmed and enhanced by the musical score by A.R. Rahman. Since the
+film, I have become ardent fans of the two lead actresses and the director. I
+look forward to more of Ms Deepa's future productions.
+
+========================================
+
