@@ -17,7 +17,7 @@ def train_language_model(model, train_loader, val_loader, optimizer, criterion, 
             inputs, targets = inputs.to(device), targets.to(device)
             optimizer.zero_grad()
             outputs = model(inputs)
-            loss = criterion(outputs.view(-1, config.VOCAB_SIZE), targets.view(-1))
+            loss = criterion(outputs.view(-1, model.fc.out_features), targets.view(-1))
             loss.backward()
             optimizer.step()
             running_train_loss += loss.item()
@@ -31,7 +31,7 @@ def train_language_model(model, train_loader, val_loader, optimizer, criterion, 
             for inputs, targets in tqdm(val_loader, desc=f"Epoch {epoch+1}/{config.LM_NUM_EPOCHS} [Validation]"):
                 inputs, targets = inputs.to(device), targets.to(device)
                 outputs = model(inputs)
-                loss = criterion(outputs.view(-1, config.VOCAB_SIZE), targets.view(-1))
+                loss = criterion(outputs.view(-1, model.fc.out_features), targets.view(-1))
                 running_val_loss += loss.item()
         
         avg_val_loss = running_val_loss / len(val_loader)
