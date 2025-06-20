@@ -8,6 +8,7 @@ import numpy as np
 from datasets import load_dataset
 import gensim.downloader as api
 from tqdm import tqdm
+import os
 
 # --- Import from src ---
 from src import config
@@ -39,6 +40,10 @@ def run_task_1():
     # 2. Build and save vocabulary
     vocab = Vocabulary(min_freq=config.MIN_VOCAB_FREQ)
     vocab.build_vocabulary(train_set['text'])
+    
+    # Create the 'models' directory if it doesn't exist
+    os.makedirs('models', exist_ok=True)
+
     torch.save(vocab, config.VOCAB_SAVE_PATH)
     print(f"Vocabulary saved to {config.VOCAB_SAVE_PATH}")
 
@@ -53,11 +58,12 @@ def run_task_1():
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=config.LM_BATCH_SIZE, shuffle=False, collate_fn=PadCollate(pad_idx))
     
     # 4. Initialize model, optimizer, and loss
-    model_config = {
-        'vocab_size': len(vocab), 'embedding_dim': config.LM_EMBEDDING_DIM,
-        'hidden_dim': config.LM_HIDDEN_DIM, 'num_layers': config.LM_NUM_LAYERS
-    }
-    model = LanguageModel(**model_config).to(config.DEVICE)
+    model = LanguageModel(
+        vocab_size=len(vocab), 
+        embedding_dim=config.LM_EMBEDDING_DIM,
+        hidden_dim=config.LM_HIDDEN_DIM, 
+        num_layers=config.LM_NUM_LAYERS
+    ).to(config.DEVICE)
     optimizer = optim.Adam(model.parameters(), lr=config.LM_LEARNING_RATE)
     criterion = nn.CrossEntropyLoss(ignore_index=pad_idx)
 
@@ -71,17 +77,17 @@ def run_task_1():
 
     # 7. Final evaluation
     test_perplexity = evaluate_perplexity(model, test_loader, criterion, config.DEVICE)
-    print(f"\\nFinal Test Perplexity: {test_perplexity:.2f}")
+    print(f"\nFinal Test Perplexity: {test_perplexity:.2f}")
 
 def run_task_2a():
     """
     Handles Experiment A: LM as a frozen backbone.
     """
-    print("\\n--- Running Task 2, Experiment A ---")
+    print("\n--- Running Task 2, Experiment A ---")
     set_seed(config.SEED)
 
     # 1. Load assets
-    vocab = torch.load(config.VOCAB_SAVE_PATH)
+    vocab = torch.load(config.VOCAB_SAVE_PATH, weights_only=False)
     lm_model = LanguageModel(len(vocab), config.LM_EMBEDDING_DIM, config.LM_HIDDEN_DIM, config.LM_NUM_LAYERS)
     lm_model.load_state_dict(torch.load(config.LM_MODEL_SAVE_PATH))
     lm_model.to(config.DEVICE)
@@ -90,8 +96,14 @@ def run_task_2a():
     imdb_dataset = load_dataset('imdb')
     original_train_data = imdb_dataset['train']
     
-    subset, _ = original_train_data.train_test_split(train_size=config.CLF_A_SUBSET_SIZE, stratify_by_column='label', seed=config.SEED)
-    cls_train_set, cls_val_set = subset.train_test_split(test_size=0.2, stratify_by_column='label', seed=config.SEED)
+    # Create a stratified subset. train_test_split returns a DatasetDict.
+    temp_split = original_train_data.train_test_split(train_size=config.CLF_A_SUBSET_SIZE, stratify_by_column='label', seed=config.SEED)
+    subset = temp_split['train'] # The subset is in the 'train' key
+
+    # Now split this subset into train and validation sets
+    final_split = subset.train_test_split(test_size=0.2, stratify_by_column='label', seed=config.SEED)
+    cls_train_set, cls_val_set = final_split['train'], final_split['test']
+    
     cls_test_set = imdb_dataset['test']
 
     pad_idx = vocab.stoi["<pad>"]
@@ -115,7 +127,6 @@ def run_task_2a():
     history_A = train_and_evaluate_classifier(model_A, cls_train_loader, cls_val_loader, optimizer, criterion, config.DEVICE, epochs=config.CLF_A_NUM_EPOCHS)
     
     # 5. Final evaluation and analysis
-    plot_classifier_history(history_A)
     evaluate_on_test_set(model_A, cls_test_loader, criterion, config.DEVICE)
     run_error_analysis_to_file(model_A, cls_test_set, vocab, config.DEVICE, filename=config.CLF_A_ERROR_ANALYSIS_FILE)
 
@@ -124,7 +135,7 @@ def run_task_2b():
     """
     Handles Experiment B: From-scratch model with Word2Vec.
     """
-    print("\\n--- Running Task 2, Experiment B ---")
+    print("\n--- Running Task 2, Experiment B ---")
     set_seed(config.SEED)
 
     # 1. Prepare data and new vocabulary
@@ -165,7 +176,6 @@ def run_task_2b():
     history_B = train_and_evaluate_classifier(model_B, train_loader_B, val_loader_B, optimizer, criterion, config.DEVICE, epochs=config.CLF_B_NUM_EPOCHS)
     
     # 6. Final evaluation and analysis
-    plot_classifier_history(history_B)
     evaluate_on_test_set(model_B, test_loader_B, criterion, config.DEVICE)
     run_error_analysis_to_file(model_B, cls_test_set, vocab_B, config.DEVICE, filename=config.CLF_B_ERROR_ANALYSIS_FILE)
 
