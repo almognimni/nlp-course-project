@@ -9,7 +9,7 @@ def train_language_model(model, train_loader, val_loader, optimizer, criterion, 
     train_losses = []
     val_losses = []
 
-    print("\\n--- Starting Language Model Training ---")
+    print("\n--- Starting Language Model Training ---")
     for epoch in range(config.LM_NUM_EPOCHS):
         model.train()
         running_train_loss = 0.0
@@ -47,7 +47,7 @@ def train_and_evaluate_classifier(model, train_loader, val_loader, optimizer, cr
     """Training loop for the classification models (Task 2)."""
     history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 
-    print("\\n--- Starting Classifier Training ---")
+    print("\n--- Starting Classifier Training ---")
     for epoch in range(epochs):
         model.train()
         epoch_train_loss, epoch_train_acc = 0, 0
