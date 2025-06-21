@@ -24,9 +24,16 @@ class LanguageModel(nn.Module):
 
 # --- Task 2, Experiment A: LM Backbone Classifier ---
 class SentimentClassifier(nn.Module):
-    def __init__(self, pretrained_lm, hidden_dim, output_dim, n_layers, dropout):
+    def __init__(self, pretrained_lm, hidden_dim, output_dim, dropout):
         super().__init__()
         self.backbone = pretrained_lm
+
+        # The embedding layer will remain trainable (fine-tuned).
+        for param in self.backbone.lstm.parameters():
+            param.requires_grad = False
+        for param in self.backbone.fc.parameters():
+            param.requires_grad = False
+
         self.classifier = nn.Sequential(
             nn.Linear(hidden_dim, 256),
             nn.ReLU(),

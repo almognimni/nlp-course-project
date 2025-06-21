@@ -116,9 +116,6 @@ def run_task_2a():
         pretrained_lm=lm_model, hidden_dim=config.LM_HIDDEN_DIM, output_dim=config.CLF_A_OUTPUT_DIM,
         n_layers=config.CLF_A_LAYERS, dropout=config.CLF_A_DROPOUT
     ).to(config.DEVICE)
-
-    for param in model_A.backbone.parameters():
-        param.requires_grad = False
     
     # 4. Train and evaluate
     optimizer = optim.Adam(filter(lambda p: p.requires_grad, model_A.parameters()), lr=config.CLF_A_LEARNING_RATE)
