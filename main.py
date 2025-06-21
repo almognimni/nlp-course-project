@@ -182,7 +182,7 @@ def run_task_2b():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run NLP assignment tasks.')
-    parser.add_argument('task', choices=['task1', 'task2a', 'task2b', 'all'], 
+    parser.add_argument('task', nargs='?', default='all', choices=['task1', 'task2a', 'task2b', 'all'],
                         help='Which task to run.')
     
     args = parser.parse_args()
